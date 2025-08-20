@@ -10,23 +10,23 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/index.js":
+/***/ "./src/index.ts":
 /*!**********************!*\
-  !*** ./src/index.js ***!
+  !*** ./src/index.ts ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/test.js\");\n\n\nconsole.log('Hello World!');\nconsole.log((0,_test__WEBPACK_IMPORTED_MODULE_0__.calc)(2, 2));\nconsole.log('Html');\n\n// test\n/**\n * test\n */\n\n\n//# sourceURL=webpack://wp-template/./src/index.js?\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/test.ts\");\n\nconsole.log('Hello World!');\nconsole.log((0,_test__WEBPACK_IMPORTED_MODULE_0__.calc)(2, 2));\nconsole.log('Html');\n// test\n/**\n * test\n */\n\n\n//# sourceURL=webpack://wp-template/./src/index.ts?\n}");
 
 /***/ }),
 
-/***/ "./src/test.js":
+/***/ "./src/test.ts":
 /*!*********************!*\
-  !*** ./src/test.js ***!
+  !*** ./src/test.ts ***!
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   calc: () => (/* binding */ calc)\n/* harmony export */ });\nfunction calc(a, b) {\n  return a + b;\n}\n\n\n//# sourceURL=webpack://wp-template/./src/test.js?\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   calc: () => (/* binding */ calc)\n/* harmony export */ });\nfunction calc(a, b) {\n    return a + b;\n}\n\n\n//# sourceURL=webpack://wp-template/./src/test.ts?\n}");
 
 /***/ })
 
@@ -90,7 +90,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.ts");
 /******/ 	
 /******/ })()
 ;

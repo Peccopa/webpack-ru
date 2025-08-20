@@ -22,6 +22,8 @@
   "homepage": "https://github.com/Peccopa/webpack-ru#readme",
   "devDependencies": {
     "html-webpack-plugin": "^5.6.4",
+    "ts-loader": "^9.5.0",
+    "typescript": "^5.2.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
   }

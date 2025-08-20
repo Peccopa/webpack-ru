@@ -1,0 +1,26 @@
+{
+  "name": "wp-template",
+  "version": "1.0.0",
+  "description": "Webpack template",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peccopa/webpack-ru.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Peccopa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Peccopa/webpack-ru/issues"
+  },
+  "homepage": "https://github.com/Peccopa/webpack-ru#readme",
+  "devDependencies": {
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
